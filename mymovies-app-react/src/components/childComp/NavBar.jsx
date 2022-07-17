@@ -1,7 +1,8 @@
 import React from "react";
+import Wrputih from '../../img/logowrputih.png';
 
 // function NavBar() {
-const Navbar =()=>{
+const NavBar =()=>{
   return (
     <div>
       <nav className="bg-gray-800">
@@ -11,7 +12,8 @@ const Navbar =()=>{
               <div className="flex-shrink-0">
                 <img
                   className="h-8 w-8"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                  src={Wrputih}
+                  // src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                   alt="Workflow"
                 />
               </div>
@@ -38,19 +40,6 @@ const Navbar =()=>{
                     Join With Us
                   </a>
 
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Calendar
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Reports
-                  </a>
                 </div>
               </div>
             </div>
@@ -121,20 +110,6 @@ const Navbar =()=>{
             >
               Join With Us
             </a>
-
-            <a
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Calendar
-            </a>
-
-            <a
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Reports
-            </a>
           </div>
         </div>
       </nav>
@@ -144,16 +119,7 @@ const Navbar =()=>{
           <h1 className="text-3xl font-bold text-gray-900">Now Playing</h1>
         </div>
       </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          {/* <!-- Replace with your content --> */}
-          <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
-          </div>
-          {/* <!-- /End replace --> */}
-        </div>
-      </main>
     </div>
   );
 }
-export default Navbar;
+export default NavBar;

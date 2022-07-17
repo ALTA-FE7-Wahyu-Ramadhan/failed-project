@@ -1,10 +1,9 @@
 Task Status:
-1. on progress
-2.
+1. Cleared
+2. on Progress
 3.
 4.
 5.
 
 Notes:
-    -Navbarnya mau dikasih logo dlu
-    -Di Navbar pakai menu NowPlaying, Favourites, Join With Us, dan Our Company
+    -lanjut ke task 2

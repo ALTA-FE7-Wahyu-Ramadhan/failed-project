@@ -2,10 +2,11 @@
 import './App.css'
 // import React from 'react';
 // import Header from './components/Header';
-// import HomePage from './pages/HomePage';
+import HomePage from './pages/HomePage';
 const App = () => {
   return (
     <>
+    <HomePage/>
     <div>inicoba</div>
     </>
   )
