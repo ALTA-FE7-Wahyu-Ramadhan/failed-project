@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import Batman1 from "../img/batmanBegins.jpg";
 import Batman2 from '../img/batmanNew.jpg';
 import Batman3 from '../img/batmanSuperman.jpg';
+import axios from 'axios'
 
 const HomePage =()=> {
 
