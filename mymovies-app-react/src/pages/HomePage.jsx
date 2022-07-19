@@ -1,7 +1,10 @@
 import Header from "../components/Header"; 
 import Card from "../components/Card";
+// import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 const HomePage =()=> {
+      
 
     const batmanImg =[
       {id:1, gambar:{Batman1}, title: 'Batman Begins', detail: 'Menceritakan tentang kehidupan batman yang kelam'},
@@ -17,4 +20,6 @@ const HomePage =()=> {
       </>
     )
 }
+
+
 export default HomePage;
